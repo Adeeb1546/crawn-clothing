@@ -38,6 +38,7 @@ class SignIn extends Component {
             handleChange={this.handleChange}
             value={this.state.email}
             label="Email"
+            autoComplete="on"
             required
           />
 
@@ -47,6 +48,7 @@ class SignIn extends Component {
             value={this.state.password}
             handleChange={this.handleChange}
             label="password"
+            autoComplete="on"
             required
           />
           <div className="buttons">
